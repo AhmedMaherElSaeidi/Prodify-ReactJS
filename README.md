@@ -7,6 +7,7 @@ Welcome to the **Scandiweb Junior Developer Test Task - Frontend** repository! T
 - [Project Overview](#project-overview)
 - [Features](#features)
 - [Technologies](#technologies)
+- [Backend repository](#backend-repository)
 - [Getting Started](#getting-started)
   - [Installation](#installation)
 
@@ -47,13 +48,27 @@ The application adheres to the following requirements:
 - **Axios**: For making HTTP requests to the PHP backend.
 - **SASS**: For advanced CSS styling.
 
+## Backend repository 
+[Repository](https://github.com/AhmedMaherElSaeidi/Prodify-PHP).
+
 ## Getting Started
 
 ### Installation
 
 To get started with the project, follow these steps:
 
-1. **Clone the Repository**
+1. **Clone the Repository**:
 
    ```bash
-   git clone https://github.com/yourusername/scandiweb-junior-dev-test-frontend.git
+   git clone https://github.com/AhmedMaherElSaeidi/Prodify-ReactJS.git
+
+2. **Install dependencies**:
+
+   ```bash
+   cd Prodify-ReactJS
+   npm install
+
+  3. **Start the app**: Through clicking the `run_react_app.bat` to start the app or using `CMD`.
+
+   ```bash
+   npm start
