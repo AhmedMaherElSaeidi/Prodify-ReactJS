@@ -2,7 +2,7 @@ import axios from "axios";
 
 // Index 0 for production, and 1 for development.
 const API = [
-  `http://prodify.lovestoblog.com/service/`,
+  `https://prodify.lovestoblog.com/service/`,
   `http://localhost:80/prodify-php/`,
 ][1];
 
