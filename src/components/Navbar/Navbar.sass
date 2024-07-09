@@ -1,0 +1,80 @@
+@import '../../sass/_variables'
+
+
+#dark
+  nav
+    border-bottom: 3px solid $color-light
+    .nav-header
+      h3
+        color: $color-light
+    span
+      background-color: $bg-dark
+    .button
+      color: $color-light
+      background-color: $button-bg-dark
+    .button:hover
+      background-color: $button-hover-dark
+
+#light
+  nav
+    border-bottom: 3px solid $color-dark
+    .nav-header
+      h3
+        color: $color-dark
+    span
+      background-color: $bg-light
+    .button
+      color: $color-dark
+      background-color: $button-bg-light
+    .button:hover
+      background-color: $button-hover-light
+
+nav
+  display: flex
+  padding: 0.25rem
+  position: relative
+  align-items: center
+  justify-content: space-between
+
+  .nav-header
+    z-index: 2
+
+    h3
+      font-weight: bold
+
+  .button
+    cursor: pointer
+    font-size: 1rem
+    padding: 0.5em 1.25em
+    border-radius: 0.25rem
+    border: 2px solid transparent
+    transition: background-color 0.3s, border-color 0.3s, outline 0.3s
+
+  .button:focus-visible[aria-pressed="false"]
+    outline: 2px solid #9fe2bf !important
+
+  .button:active
+    background-color: #9fe2bf !important
+
+  .button-danger:active
+    background-color: #ff3131 !important
+
+  span
+    position: absolute
+    padding: .15rem
+    top: 2.25rem
+    left: 1rem
+    z-index: 1
+
+@media screen and (max-width: 520px)
+  nav
+    .nav-header
+      h3
+        font-size: 1rem
+
+    .button
+      font-size: 0.8rem
+      padding: 0.25em 0.65em
+
+    span
+      top: 1.4rem
