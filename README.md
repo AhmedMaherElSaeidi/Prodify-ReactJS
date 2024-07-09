@@ -53,7 +53,7 @@ The application adheres to the following requirements:
 Here's the [Repository](https://github.com/AhmedMaherElSaeidi/Prodify-PHP).
 
 ## Deployment
-My app is deployed at [infinity free][https://prodify.lovestoblog.com).
+My app is deployed at [infinity free](https://prodify.lovestoblog.com).
 
 ## Getting Started
 
