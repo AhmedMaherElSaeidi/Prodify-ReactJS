@@ -72,7 +72,7 @@ To get started with the project, follow these steps:
    cd Prodify-ReactJS
    npm install
 
-  3. **Start the app**: Through clicking the `run_react_app.bat` to start the app or using `CMD`.
+3. **Start the app**: Through clicking the `run_react_app.bat` to start the app or using `CMD`.
 
    ```bash
    npm start
