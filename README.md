@@ -8,6 +8,7 @@ Welcome to the **Scandiweb Junior Developer Test Task - Frontend** repository! T
 - [Features](#features)
 - [Technologies](#technologies)
 - [Backend repository](#backend-repository)
+- [Deployment](#deployment)
 - [Getting Started](#getting-started)
   - [Installation](#installation)
 
@@ -49,7 +50,10 @@ The application adheres to the following requirements:
 - **SASS**: For advanced CSS styling.
 
 ## Backend repository 
-[Repository](https://github.com/AhmedMaherElSaeidi/Prodify-PHP).
+Here's the [Repository](https://github.com/AhmedMaherElSaeidi/Prodify-PHP).
+
+## Deployment
+My app is deployed at [infinity free][https://prodify.lovestoblog.com).
 
 ## Getting Started
 
