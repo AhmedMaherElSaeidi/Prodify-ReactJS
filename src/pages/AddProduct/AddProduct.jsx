@@ -60,9 +60,9 @@ const AddProduct = () => {
     >
       <Navbar
         header={"ADD PRODUCT"}
-        firstButtonProps={{ name: "SAVE", type: "submit" }}
+        firstButtonProps={{ name: "Save", type: "submit" }}
         firstButtonAction={() => handleSubmit(onSubmit)}
-        secondButtonProps={{ name: "CANCEL", type: "button" }}
+        secondButtonProps={{ name: "Cancel", type: "button" }}
         secondButtonAction={() => navigate("/product-list")}
       />
       {!pageData.loading && (
